@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0330/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0330/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三十六水法
+  date: '2015-08-29 00:56:11.605619'
+  source:
+    repository: kanripo
+    path: KR5c0330
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0330_000-HFL.yaml, hash: 'sha256:15a871674b421f94b0f7ac05657a838597dca3721f88d8d3fbf1483119a78e88'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0330_000-HFL.markers.yaml, hash: 'sha256:8d3fa31c2a2e3eb856e21f9b1d10c0c4cb85126ae435fddee95320c5b7a9f4c1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0330_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2501
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d7c4add0cc6eb2320b9986f9016102831f83b85c9c9d7419968ddcde23f83eb4
